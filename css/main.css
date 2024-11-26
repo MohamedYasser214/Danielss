@@ -1,0 +1,538 @@
+
+
+*{
+    margin: 0;
+    left: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  h1 , h2 ,h3 , h4 ,h5 , h6 {
+    margin-top: 0;
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+  }
+  .nav-item{
+    position: relative;
+  }
+  .navbar .nav-item .nav-link.active::before{
+    content: "";
+    width: 95%;
+    height: 3px;
+    background-color: white;
+    position: absolute;
+    top: 80%;
+    left: 0;
+  }
+  .navs{
+    background-color: transparent !important;
+  }
+  .home{
+    background-image: linear-gradient(rgba( 0 , 0 , 0 ,0.6) 0% 100%),url(Devfolio/test1.jpg);
+    height: 100vh;
+    background-position: center center;
+    background-size:cover;
+    background-attachment: fixed;
+  }
+  .text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .home-icon{
+    margin-top: 3%;
+  }
+  .home-icon i{
+    color: white;
+    font-size: 15px;
+    background-color: rgba( 0 , 0 , 0 ,0.6);
+    padding: 10px;
+    border-radius: 50%;
+    text-align: center;
+    margin: 2px;
+  }
+  
+  .home .text p::after {
+      content: '';
+      font-size: 50px;
+      font-weight: 400;
+      animation: typing 10s infinite alternate;
+      -webkit-animation: typing 10s infinite alternate;
+  } 
+  
+  @keyframes typing {
+      0%{
+          content: ' L';
+      }
+      3%{
+          content: 'a';
+      }
+      6%{
+          content: ' la |';
+      }
+      9%{
+          content: 'lar';
+      }
+      12%{
+          content: 'larr |';
+      }
+      15%{
+          content: 'larry';
+      }
+      18%{
+          content: 'larry D |';
+      }
+      20%{
+          content: 'larry Da';
+      }
+      23%{
+          content: 'larry Dan|';
+      }
+      26%{
+          content: 'larry Dani';
+      }
+      29%{
+          content: 'larry Danie |';
+      }
+      32%{
+          content: 'larry Daniel';
+      }
+      35%{
+          content: 'larry Daniels |';
+      }
+      38%{
+          content: ' |';
+      }
+      41%{
+          content: 'D |';
+      }
+      44%{
+          content: 'De';
+      }
+      47%{
+          content: 'Dev |';
+      }
+      50%{
+          content: 'Deve ';
+      }
+      53%{
+          content: 'Devel ';
+      }
+      56%{
+          content: 'Develo |';
+      }
+      59%{
+          content: 'Develop |';
+      }
+      61%{
+          content: 'Develop |';
+      }
+      64%{
+          content: 'Develope |';
+      }
+      67%{
+          content: 'Developer |';
+      }
+      70%{
+          content: 'D|';
+      }
+      73%{
+          content: 'De';
+      }
+      76%{
+          content: 'Des |';
+      }
+      79%{
+          content: 'Desi';
+      }
+      81%{
+          content: 'Desig |';
+      }
+      84%{
+          content: 'Design';
+      }
+      87%{
+          content: 'Designe |';
+      }
+      90%{
+          content: 'Designer';
+      }
+      92%{
+          content: 'Design |';
+      }
+      93%{
+          content: 'Desig |';
+      }
+      94%{
+          content: 'Desi |';
+      }
+      95%{
+          content: 'Des |';
+      }
+      96%{
+          content: 'De |';
+      }
+      97%{
+          content: 'D |';
+      }
+      98%{
+          content: '|';
+      }
+      10%{
+          content: '|';
+      }
+    }
+  
+    @media (min-width: 1400px) {
+      .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
+        max-width: 1140px;
+      }
+    }
+  
+    .about-text .about-title{
+      color: #999;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+    .about-text p{
+      margin: 10px 0;
+    }
+    .prog{
+      margin: 40px 0;
+    }
+  .prog .changes{
+    margin: 30px 0 !important;
+    color: black;
+    height: 25px !important;
+  }
+  .about-image {
+    position: relative;
+  
+  }
+  .about-image  img{
+    width: 90%;
+    position: relative;
+  
+  }
+  
+  .changes span{
+    padding:0 13px;
+    font-size: 15px;
+    text-align: center;
+  }
+  .about-text{
+    width: 90%;
+    /* background-color: tomato; */
+  }
+  .about-butt .diff{
+    background-color: #1c1c1c;
+    color: white;
+  }
+  .about-butt button{
+    padding: 10px 30px;
+    border: 1px solid #1c1c1c;
+    border-radius: 5px;
+    font-size: 13px;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+  }
+  .diff{
+    transition: all 0.3s;
+  }
+  .about-butt .diff:hover{
+    background-color: white;
+    color: black;
+  }
+  .diff2{
+    transition: all 0.3s;
+  }
+  .about-butt .diff2:hover{
+    background-color: #1c1c1c;
+    color: white;
+  }
+  .clr{
+    background-color: #1c1c1c !important;
+  }
+  .services{
+  
+    text-align: center;
+    background-color: #F7F7F7;
+  }
+  .services h3{
+    position: relative;
+    width: 100%;
+    font-weight: 900;
+    font-size: 40px;
+  }
+  .all-cont{
+    border-radius:5px;
+    padding: 60px 0px;
+    background-color: white ;
+  }
+  .text-serv h3::after{
+    content: " ";
+    position: absolute;
+    top: 110%;
+    left: 50%;
+    background-image: url(imgs/dots.png);
+    width: 180px;
+    height: 10px;
+    transform: translate(-50% , -50%);
+  }
+  .all-cont i{
+    color: black;
+    padding: 15px ;
+    background-color: rgb(213, 213, 213);
+    margin: 5px 0;
+    border-radius: 50%;
+    font-size: 25px;
+    transition: all 0.3s;
+  }
+  .all-cont h6{
+    padding: 15px 0;
+  }
+  .all-cont p {
+    width: 75%;
+  }
+  .all-cont:hover i{
+    background-color: black;
+    color: white;
+  }
+  /* ================================================================== */
+  
+  
+  
+  .Portfolio{
+    text-align: center;
+    background-color: #FFFFFF;
+  }
+  .Portfolio h3{
+      position: relative;
+      width: 100%;
+      font-weight: 900;
+      font-size: 40px;
+  }
+  .img-port{
+    position: relative;
+    text-align: center;
+  }
+  .img-port .img-layer{
+    position: absolute;
+    top: 3%;
+    left: 3%;
+    width: 95%;
+    background-color: #FEFEFE;
+    height: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: all 0.3s;
+  }
+  .img-port:hover .img-layer{
+    opacity: 1;
+  }
+  .img-port .img-layer i{
+    font-size: 10px;
+    padding: 10px 10px;
+    background-color: #1c1c1c;
+    border: 1px solid #1c1c1c;
+    border-radius: 50%;
+    color: white;
+    margin: 5px 1px;
+    transition: all 0.3s;
+    text-align: center;
+  }
+  .img-port .img-layer i:hover{
+    background-color: white;
+    border: 1px solid #1c1c1c;
+    color: #1c1c1c;
+  
+  }
+  .nav .nav-item .nav-link{
+    background-color: transparent;
+    color: #1c1c1c;
+    font-weight: bold;
+  }
+  .nav .nav-item .nav-link.active{
+    background-color: transparent;
+    color: #1c1c1c;
+    font-weight: bold;
+    position: relative;
+    transition: all 1s;
+  }
+  .nav .nav-item .nav-link.active::before{
+    content: "";
+    width: 100%;
+    height: 2px;
+    background-color: #1c1c1c;
+    position: absolute;
+    top: 100%;
+    left: 0;
+  }
+  .client{
+    background-color: #F7F7F7;
+  }
+  .client .text-serv{
+    text-align: center;
+  }
+  .client .text-serv h3{
+      position: relative;
+      width: 100%;
+      font-weight: 900;
+      font-size: 40px;
+  }
+  .innerwidt{
+    width: 100px;
+  }
+  .dots button{
+    background-color: gray !important;
+    width: 0.01% !important;
+    height: 0.01% !important;
+    border-radius: 50% !important;
+    padding: 4px !important;
+    transition: all 1s;
+  }
+  .dots button:hover{
+    background-color: #1c1c1c !important;
+  }
+  .cont-project i{
+    font-size: 30px;
+    margin-bottom: 15px;
+  }
+  .cont-project h3{
+    font-weight: 900;
+    margin-bottom: 15px;
+  }
+  .cont-project p{
+    line-height: 1.6;
+    margin: 0;
+    font-size: 15px;
+    color: #748182;
+    font-weight: 700;
+  }
+  .team{
+    text-align: center;
+    background-color: #F7F7F7;
+  }
+  .team h3{
+      position: relative;
+      width: 100%;
+      font-weight: 900;
+      font-size: 40px;
+  }
+  .client-text{
+    background-color: #5B5B5B;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    margin: auto;
+  }
+  .poss{
+    position: relative;
+  }
+  .social{
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.95);
+    top: 1.5%;
+    left: 4%;
+    width: 92%;
+    height: 82%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    opacity: 0;
+    transition: all 1s;
+  }
+  .poss:hover .social{
+    opacity: 1;
+    transform: rotateY(360deg);
+  }
+  .social i {
+    padding: 15px 15px;
+    margin: 5px;
+    font-size: 20px;
+    color: white;
+    background-color: #1c1c1c;
+    border-radius: 50%;
+    transition: all 0.3s;
+  }
+  .social i:hover{
+    background-color: white;
+    color: black;
+    border:  1px solid black
+  }
+  .cont-team img{
+    transition: all 0.3s;
+  }
+  .cont-team:hover img{
+    transform: scale(1.2);
+  }
+  
+  .contact .text-serv{
+    text-align: center;
+  }
+  .contact .text-serv h3{
+      position: relative;
+      width: 100%;
+      font-weight: 900;
+      font-size: 40px;
+  }
+  .about-contact{
+    margin: 10px 0;
+    padding: 20px 0;
+  }
+  .about-contact h6{
+    padding: 10px 0;
+  }
+  .about-contact i{
+    padding: 15px ;
+    background-color:#F4F4F3;
+    font-size: 1.875rem;
+    color: #1c1c1c;
+    border-radius: 50%;
+    text-align: center;
+    transition: all 0.3s;
+  }
+  .about-contact:hover i{
+    color: white;
+    background-color: black;
+    
+  }
+  #textt , #email, #textarea{
+    width: 100%;
+    border: 0;
+    border-radius: 5px;
+    padding: 10px;
+    background: #f4f4f4;
+  }
+  .cont-btt{
+    position: absolute;
+    top: 100%;
+    left: 9%;
+  }
+  .cont-btt input{
+    padding: 10px 40px;
+    border: 1px solid #1c1c1c;
+    border-radius: 5px;
+    font-size: 13px;
+    transition: all 0.5s;
+    background: #1c1c1c;
+    color: #eee;
+  }
+  .cont-btt input:hover{
+    color: #1c1c1c;
+    background-color: #eee;
+  }
+  .foot{
+    background-color: #1C1C1C;
+    color: #748175;
+    font-weight: 400;
+    font-size: 14px;
+  }
